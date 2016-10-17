@@ -1,0 +1,141 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Abertura</title>
+</head>
+
+<body>
+
+<table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="100%">
+  <tr>
+    <td width="100%" bgcolor="#FFFFFF">
+
+<p align="center"><b><font size="6">Bem- vindos amados!</font></b></p>
+<p align="justify">&nbsp;&nbsp;<font color="#008000">&nbsp;</font><b><font color="#800000"> </font> <font size="4">Caso a tua vida esteja bem 
+agradeça a Deus e caso não esteja, observa a vida de outras pessoas para fazer 
+uma comparação e agradeça a Deus e se você não encontrou ninguém em pior 
+situação que a sua faça o mesmo agradeça também, em todo caso venha buscar uma 
+oração aqui para você todos os dias. </font></b></p>
+<p align="justify">&nbsp;</p>
+    </td>
+  </tr>
+</table>
+<div align="center">
+  <center>
+  <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="80%">
+    <tr>
+      <td width="70%" align="center" valign="top"><p align="left">
+<img src="http://bloghosting.uol.com.br/contador.gif?tipo=4&tam=10&borda=0&cor=1,0,0"> 
+</p>
+<!DOCTYPE html><html class=''>
+<head><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/quietcodes/pen/wBLPxy" />
+
+<link rel='stylesheet' href='http://s.codepen.io/assets/reset/normalize.css'>
+<style class="cp-pen-styles">#decoder {
+  font-size: 60px;
+  text-align: center;
+  font-family: monospace;
+}
+#decoder span {
+  display: inline-block;
+  position: relative;
+}
+</style></head><body>
+<div id="decoder"> 
+  <span data-letter="O"></span><span data-letter="r"></span><span data-letter="a"></span><span data-letter="n"></span><span data-letter="d"></span><span data-letter="o"></span>
+  <span data-letter="A"></span><span data-letter="go"></span><span data-letter="r"></span><span data-letter="a"></span>
+</div> 
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script>
+(function () {
+    'use strict';
+    var lettersToDecode = $('#decoder span'), timeouts = [];
+    lettersToDecode.on('scramble', function (event, index) {
+        scramble($(event.target), index);
+    });
+    lettersToDecode.on('decode', function (event, index) {
+        decode($(event.target), index);
+    });
+    function randomCharacter() {
+        var availableCharacters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz%!@&*#_', randomNumber = Math.floor(Math.random() * availableCharacters.length);
+        return availableCharacters[randomNumber];
+    }
+    function scramble(element, index) {
+        $(element).text(randomCharacter());
+        $(element).attr('data-scramble', $(element).text());
+        timeouts[index] = setTimeout(function () {
+            scramble(element, index);
+        }, 75);
+    }
+    function decode(element, index) {
+        clearTimeout(timeouts[index]);
+        $(element).attr('data-scramble', $(element).attr('data-letter'));
+        $(element).text($(element).attr('data-letter'));
+    }
+    lettersToDecode.each(function (index, element) {
+        scramble(element, index);
+        setTimeout(function () {
+            decode(element, index);
+        }, 250 * (index + 1));
+    });
+    function runScrambler() {
+        var scrambleItem = Math.floor(Math.random() * lettersToDecode.length), scrambleLength = Math.floor(Math.random() * 2000), nextScramble = Math.floor(Math.random() * 10000);
+        $(lettersToDecode[scrambleItem]).trigger('scramble', scrambleItem);
+        setTimeout(function () {
+            $(lettersToDecode[scrambleItem]).trigger('decode', scrambleItem);
+        }, scrambleLength);
+        setTimeout(function () {
+            runScrambler();
+        }, nextScramble);
+    }
+    runScrambler();
+}());
+//@ sourceURL=pen.js
+</script>
+<script src='http://codepen.io/assets/editor/live/css_live_reload_init.js'></script>
+</body></html>
+      <p align="center"><b><font size="4" color="#800000">Patrocinadores dos site:</font></b></p>
+<br>
+<! google>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- para gerador de imagens -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8387114052511714"
+     data-ad-slot="8050447671"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></td>
+      <td width="30%">
+      <p align="center"><p align="center"><iframe name="arquivo cristão" width="360" height="380" marginwidth="1" marginheight="0" scrolling="no" border="0" frameborder="0" src="http://gospelnoface.zip.net/imagens-com-versiculos.html"></iframe></p>
+<form method="POST">
+<p></p>
+</form></td>
+    </tr>
+    <tr>
+      <td width="100%" colspan="2" align="center">
+      <! google>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- para gerador de imagens -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8387114052511714"
+     data-ad-slot="8050447671"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>
